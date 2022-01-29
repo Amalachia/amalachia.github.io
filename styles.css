@@ -1,6 +1,6 @@
 
 .page {
-  margin-left:350px;
+  margin-left:320px;
   margin-right: 100px;
   text-align: justify;
 line-height: 1.5;
@@ -12,26 +12,41 @@ text-align: center;
 color: dimgray;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-.button {
+.button,
+.button2,
+.button3
+ {
   color: #FFF;
   background-color: #5995DA;    /* Blue */
   font-weight: bold;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   border: 2px solid #5D6063;    /* Dark gray */
   border-radius: 5px;
 
   width: 200px;
-  margin:150px ;/* Vertical  Horizontal */
+  margin:70px ;/* Vertical  Horizontal */
 }
-.button2{color: #FFF;
-background-color: #5995DA;    /* Blue */
-font-weight: bold;
-padding: 20px;
-text-align: center;
-border: 2px solid #5D6063;    /* Dark gray */
-border-radius: 5px;
 
-width: 200px;
-margin:175px ;
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .page {
+    width: 50%
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .page {
+        width: 10%
+
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+.page { width: 50%
+
+
+  }
 }
