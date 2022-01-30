@@ -1,7 +1,6 @@
 
 .page {
-  margin-left:320px;
-  margin-right: 100px;
+  margin-left:400px;
   text-align: justify;
 line-height: 1.5;
 }
@@ -19,19 +18,18 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   color: #FFF;
   background-color: #5995DA;    /* Blue */
   font-weight: bold;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   border: 2px solid #5D6063;    /* Dark gray */
   border-radius: 5px;
+  margin: 25px;
 
-  width: 200px;
-  margin:70px ;/* Vertical  Horizontal */
 }
 
 /* Mobile Styles */
 @media only screen and (max-width: 400px) {
   .page {
-    width: auto;
+    width: 50%;
   }
 }
 
@@ -45,7 +43,7 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-.page { width: 75%
+.page { width: 50%
 
 
   }
