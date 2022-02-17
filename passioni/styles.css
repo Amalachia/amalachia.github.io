@@ -1,8 +1,7 @@
 
-.page,
-.page1 {
+.page {
   margin-left:100px;
-  margin-right: 200px;
+  margin-right: 150px;
   text-align: justify;
 line-height: 1.5;
 }
