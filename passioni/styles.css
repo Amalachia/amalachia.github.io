@@ -13,25 +13,17 @@ text-align: center;
 color: dimgray;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  .page {
-    width: 25%;
-  }
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  .page {
-        width: 50%
-
-  }
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-.page { width: 50%
-
-
-  }
+.button,
+.button2,
+.button3
+ {
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+  margin: 25px;
+font-size: 20px;
 }
